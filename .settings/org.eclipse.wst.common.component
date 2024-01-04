@@ -3,6 +3,11 @@
         
     <wb-module deploy-name="TeamPro">
                 
+=======
+<<<<<<< HEAD
+        
+    <wb-module deploy-name="TeamPro">
+                
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
                 
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
@@ -14,10 +19,18 @@
     
 =======
     <wb-module deploy-name="TeemPro">
+>>>>>>> branch 'master' of https://github.com/choijongyoon/TeemPro.git
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="TeemPro"/>
-        <property name="java-output-path" value="/TeemPro/build/classes"/>
+                
+        <property name="java-output-path" value="/TeamPro/build/classes"/>
+        <property name="context-root" value="TeamPro"/>
+            
     </wb-module>
+<<<<<<< HEAD
+    
+=======
+>>>>>>> branch 'master' of https://github.com/choijongyoon/TeemPro.git
 >>>>>>> branch 'master' of https://github.com/choijongyoon/TeemPro.git
 </project-modules>
